@@ -1,7 +1,6 @@
 import React from 'react';
 import { ChevronRight, Navigation, Eye, MapPin, MessageSquare } from 'lucide-react';
 import './index.css';
-import mantraThm from './mantra-thm.png';
 
 const LandingPage = () => {
   return (
@@ -19,7 +18,7 @@ const LandingPage = () => {
             </div>
             <div className="mt-8 md:mt-0">
               <img 
-                src={mantraThm} 
+                src="/mantra-thm.png" 
                 alt="MANTRA app interface showing navigation assistance" 
                 className="rounded-lg shadow-xl mx-auto w-full max-w-md"
               />
